@@ -1,0 +1,37 @@
+git init 
+
+echo >> README.md
+
+git config --local user.name "Dima"
+
+git config --local user.email testkampaniya@yandex.ru
+
+git add -A
+
+git status
+
+git commit -a -m "Ёто наш первый комит"
+
+git status
+
+ƒалее идем работать, если работа завершена снова возвращаемс€ в git
+
+git status
+
+git add*.html
+
+git status
+
+git commit -a -m "Ёто наш первый комит"
+
+git log - выводит в консоль данные об изменени€хgit commit -a -m "Ёто наш первый комит"
+
+clear - чистит консоль
+
+ƒалее на github создаем новый репозиторий
+
+$ git remote add test https://github.com/Wow95/test.git
+
+$ git push -u test master - отправл€ет данные на сервер github 
+
+(где test это им€ репозитори€)
